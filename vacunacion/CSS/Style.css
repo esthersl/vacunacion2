@@ -1,0 +1,301 @@
+*{
+    padding: 15px 15px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position:absolute;
+    padding: 20px 30px;
+
+}
+
+.parrafo{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color:  rgb(115, 115, 253) ;
+    padding: 10px 10px;
+ 
+}
+nav ul{
+    float: right;
+    margin: right 20px; ;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+li a.active, li a:hover{
+    background: rgb(115, 115, 253);
+    transition: .5s;
+}
+
+.flex-center{
+    display: block;
+    justify-content: right;
+    text-align: right;
+
+}
+#fondo{
+    width: 400px;
+    height: 600px;
+    background-image: url(doc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 100px;
+    left: 800px;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; 
+    color: rgb(16, 16, 65);
+    text-align: justify;
+    margin: 50px auto;
+ 
+}
+p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(106, 106, 245);
+}
+.figuras{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(106, 106, 245);
+    flex-direction: row;
+
+}
+.figuras .imgmenu{
+    width: 70px;
+    height: 70px;
+}
+.uno{
+    color:rgb(106, 106, 245);
+    padding:198px 9px;
+
+}
+.type{
+    display:flex;
+    flex-direction:row;
+    color:rgb(143, 143, 240);
+    padding:250px 200px;
+    float:left; 
+    position: relative;  
+    text-align: center;
+}
+ .boton{
+    font-size: 15px;
+    background-color: rgb(101, 101, 235);
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.media{
+    text-align:start;
+    float: left;
+    color: rgba(7, 7, 95, 0.904);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+
+
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+
+}
+.div{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    
+}
+.box{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px solid #eee;
+    border-radius: 7px;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.security{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px solid #eee;
+    border-radius: 7px;
+
+}
+
+.meet{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px solid #eee;
+    border-radius: 7px;
+}
+.meseeng{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px solid #eee;
+    border-radius: 7px;
+}
+.box:hover{
+    background: #bde5ee;
+
+}
+.box:hover img{
+    transform: translateY(-70px) ;
+}
+.box:hover h2{
+    transform: translateY(-70px);
+}
+.box:hover .div {
+    transform: translateY(-70px);
+    opacity: 1;
+}
+.security:hover{
+    background:#bde5ee;
+}
+.security:hover img{
+    transform: translateY(-70px) ;
+}
+.security:hover h2{
+    transform: translateY(-70px);
+}
+.security:hover .div {
+    transform: translateY(-70px);
+    opacity: 1;
+}
+.meet:hover{
+    background:#bde5ee;
+}
+.meet:hover img{
+    transform: translateY(-70px) ;
+}
+.meet:hover h2{
+    transform: translateY(-70px);
+}
+.meet:hover .div {
+    transform: translateY(-70px);
+    opacity: 1;
+}
+.meseeng:hover{
+    background:#bde5ee;
+}
+.meseeng:hover img{
+    transform: translateY(-70px) ;
+}
+.meseeng:hover h2{
+    transform: translateY(-70px);
+}
+.meseeng:hover .div {
+    transform: translateY(-70px);
+    opacity: 1;
+}
+main{
+    text-align: right;
+    text-align: justify;
+    width:100% ;
+    height: 200px;
+    padding: 350px;
+    margin: 300px;
+}
+
+#fondo1{
+    width: 350px;
+    height: 500px;
+    background-image: url(mujer2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+.container_menu{
+    width: 40%;
+    height: 750px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background: rgb(234, 252, 252);
+    padding: 0px 2px;
+    top: 250px;
+    left: 250px;
+    display: flex;
+   align-content: flex-end;
+}
+.menu2{
+    margin: auto;
+    height: 100%;
+    text-decoration: none;
+}
+.nav2 > ul{
+    height: 100%;
+}
+
+
+.nav2 ul li p{
+    color: rgb(18, 166, 211);
+    text-align: justify;
+    line-height: 1;
+}
+
+.nav2 > ul > li >a:hover{
+    transform: scale(1.1);
+    background: #eee;
+    box-shadow: 0px 0px 10px 0px blue;
+}
+
+
+
+
